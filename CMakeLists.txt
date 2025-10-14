@@ -75,8 +75,8 @@ else()
 endif()
 
 if(APPLE)
-	find_library(AGL_LIBRARY AGL)
-	list(APPEND LIBRARIES ${AGL_LIBRARY})
+	#find_library(AGL_LIBRARY AGL)
+	#list(APPEND LIBRARIES ${AGL_LIBRARY})
 elseif(NOT WIN32)
 	find_package(X11 REQUIRED)
 
